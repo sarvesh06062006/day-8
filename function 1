@@ -1,0 +1,18 @@
+#include<stdio.h>
+void csa()
+{
+    printf("\n I am in csa fun");
+    it();
+    printf("\n I am back to csa fun");
+}
+void it()
+{
+    printf("\n I am in it fun");
+}
+int main()
+{
+    printf("\n I am in main fun");
+    csa();
+    printf("\n I am back to main fun");
+    return 0;
+}
